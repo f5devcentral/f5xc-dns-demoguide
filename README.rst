@@ -252,6 +252,9 @@ Module 4: Powerful DNS Load Balancing and Disastor recovery
 
 1. Inroduction
 ==============
+At first, we need to login to F5 Distributed Cloud Console and navigate to DNS Management
+
+
 
 1. Step by Step config process
 ==============
