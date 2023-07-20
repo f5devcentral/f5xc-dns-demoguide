@@ -274,6 +274,10 @@ Enter Excluding Domain Name as ``buytime`` and click on Add Item button to creat
 Provide DNS LB name in Metadata section, select Record Type as A. Click on Configure under Load Balancer Rules to create.
 
 .. figure:: Assets/dns-lb-name.jpg
+
+Click on Add Item button to create rules for Load Balancing based on users in Geographical location.
+
+.. figure:: Assets/dns-lb-rule.jpg
 DASDFad
 
 1. Step by Step config process
