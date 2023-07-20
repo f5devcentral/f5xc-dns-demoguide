@@ -256,6 +256,8 @@ At first, login to F5 Distributed Cloud Console and navigate to ``DNS Management
 
 .. figure:: Assets/Untitled.jpg
 
+In the left-side navigation panel proceed to the Manage section, click on DNS Management. When the page opens, click the Add DNS zone button.
+
 1. Step by Step config process
 ==============
 
