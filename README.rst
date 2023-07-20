@@ -246,3 +246,9 @@ Now that the primary zone is added with the list of its name servers, we can tes
 .. figure:: Assets/prdns7.png
 
 As you can see from the output, the created record is there. You just need to update the DNS domain settings with your registrar to point to the F5 Distributed Cloud Platform to start sending queries. It's really that quick and easy. Now primary DNS is set up and clients can access your site or app globally via our distributed PoPs providing maximum uptime and performance.
+
+Module 3: Powerful DNS Load Balancing and Disastor recovery
+***************************************************
+
+1. Inroduction
+==============
