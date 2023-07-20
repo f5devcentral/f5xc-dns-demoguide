@@ -259,7 +259,7 @@ At first, login to F5 Distributed Cloud Console and navigate to ``DNS Management
 In the left-side navigation panel proceed to the Manage section, click on DNS Management. When the page opens, click the Add zone button.
 
 .. figure:: Assets/dns-home-page.jpg
-In the Metadata section, give the Domain Name as ``f5-cloud-dnstesting.com``. Under DNS Zone Configuration, setup Zone Type as ``Primary DNS Configuration`` and click on Edit Configuration.
+In the Metadata section, give the Domain Name as ``f5-cloud-dnstesting.com``. Under DNS Zone Configuration section, setup Zone Type as ``Primary DNS Configuration`` and click on Edit Configuration.
 
 .. figure:: Assets/config-page.jpg
 adfasdfasdf
