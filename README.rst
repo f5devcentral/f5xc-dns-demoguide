@@ -263,6 +263,7 @@ In the Metadata section, give the Domain Name as ``f5-cloud-dnstesting.com``. Un
 
 .. figure:: Assets/config-page.jpg
 Click on Add Item to create the DNS Load Balancer Resource Record Set.
+
 .. figure:: Assets/resource-record-set.jpg
 DASDFad
 
