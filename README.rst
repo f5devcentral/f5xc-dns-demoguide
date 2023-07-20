@@ -266,6 +266,7 @@ Click on Add Item to create the DNS Load Balancer Resource Record Set.
 
 .. figure:: Assets/resource-record-set.jpg
 
+.. figure:: Assets/dns-resource-record-set.jpg
 DASDFad
 
 1. Step by Step config process
