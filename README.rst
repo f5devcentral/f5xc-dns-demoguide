@@ -270,6 +270,8 @@ Select the Record Set dropdown select DNS Load Balancer.
 .. figure:: Assets/dns-resource-record-set.jpg
 Enter Excluding Domain Name as ``buytime`` and click on Add Item button to create DNS LB Record.
 .. figure:: Assets/dns-configs.jpg
+Page takes you to DNS LB configs. Provide DNS LB name in Metadata section, select Record Type as A. Click on Configure under Load Balancer Rules to create.
+.. figure:: Assets/dns-lb-name.jpg
 DASDFad
 
 1. Step by Step config process
