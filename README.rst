@@ -262,6 +262,7 @@ In the left-side navigation panel proceed to the Manage section, click on DNS Ma
 In the Metadata section, give the Domain Name as ``f5-cloud-dnstesting.com``. Under DNS Zone Configuration, setup Zone Type as ``Primary DNS Configuration`` and click on Edit Configuration.
 
 .. figure:: Assets/config-page.jpg
+adfasdfasdf
 
 1. Step by Step config process
 ==============
