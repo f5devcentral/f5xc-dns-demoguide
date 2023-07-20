@@ -265,10 +265,10 @@ In the Metadata section, give the Domain Name as ``f5-cloud-dnstesting.com``. Un
 Click on Add Item to create the DNS Load Balancer Resource Record Set.
 
 .. figure:: Assets/resource-record-set.jpg
-Select the DNS Load Balancer from Record Set dropdown
+Select the Record Set dropdown select DNS Load Balancer.
 
 .. figure:: Assets/dns-resource-record-set.jpg
-
+Enter Excluding Domain Name as ``buytime`` and click on Add Item button to create DNS LB Record.
 .. figure:: Assets/dns-configs.jpg
 DASDFad
 
