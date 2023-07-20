@@ -250,11 +250,11 @@ As you can see from the output, the created record is there. You just need to up
 Module 4: Powerful DNS Load Balancing and Disastor recovery
 ***************************************************
 
-1. Inroduction
+1. Introduction
 ==============
 At first, we need to login to F5 Distributed Cloud Console and navigate to DNS Management
 
-a
+
 
 1. Step by Step config process
 ==============
