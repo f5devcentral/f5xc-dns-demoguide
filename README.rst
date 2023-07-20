@@ -262,7 +262,8 @@ In the left-side navigation panel proceed to the Manage section, click on DNS Ma
 In the Metadata section, give the Domain Name as ``f5-cloud-dnstesting.com``. Under DNS Zone Configuration section, setup Zone Type as ``Primary DNS Configuration`` and click on Edit Configuration.
 
 .. figure:: Assets/config-page.jpg
-adfasdfasdf
+Click on Add Item to create the DNS Load Balancer Resource Record Set.
+.. figure:: Assets/resource-record-set.jpg
 
 1. Step by Step config process
 ==============
