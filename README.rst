@@ -349,6 +349,8 @@ Click on Add Item button to create rules for Load Balancing based on users in Ge
 
 .. figure:: Assets/lb-apply.jpg
 
+.. figure:: Assets/dns-configs-apply.jpg
+
 DASDFad
 
 1. Step by Step config process
