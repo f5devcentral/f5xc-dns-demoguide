@@ -280,6 +280,8 @@ Click on Add Item button to create rules for Load Balancing based on users in Ge
 .. figure:: Assets/dns-lb-rule.jpg
 
 .. figure:: Assets/eu-rule.jpg
+
+.. figure:: Assets/eu-rule-label.jpg
 DASDFad
 
 1. Step by Step config process
