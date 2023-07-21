@@ -317,6 +317,8 @@ Click on Add Item button to create rules for Load Balancing based on users in Ge
 
 .. figure:: Assets/global-set-selector-add.jpg
 
+.. figure:: Assets/global-users-rule.jpg
+
 DASDFad
 
 1. Step by Step config process
