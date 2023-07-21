@@ -321,6 +321,8 @@ Click on Add Item button to create rules for Load Balancing based on users in Ge
 
 .. figure:: Assets/global-pool-create.jpg
 
+.. figure:: Assets/dns-global.jpg
+
 DASDFad
 
 1. Step by Step config process
