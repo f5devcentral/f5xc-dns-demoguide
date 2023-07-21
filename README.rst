@@ -319,6 +319,8 @@ Click on Add Item button to create rules for Load Balancing based on users in Ge
 
 .. figure:: Assets/global-users-rule.jpg
 
+.. figure:: Assets/global-pool-create.jpg
+
 DASDFad
 
 1. Step by Step config process
