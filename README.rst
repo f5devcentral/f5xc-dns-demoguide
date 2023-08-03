@@ -299,7 +299,7 @@ change here
 
 .. figure:: Assets/dns-europe-2nd-ip-new.jpg
 
-.. figure:: Assets/dns-health-check.jpg
+.. figure:: Assets/dns-health-check-new.jpg
 
 .. figure:: Assets/enable-health-check.jpg
 
