@@ -309,7 +309,7 @@ change here
 
 .. figure:: Assets/static-persist-new.jpg
 
-.. figure:: Assets/static-persist-continue.jpg
+.. figure:: Assets/static-persist-continue-new.jpg
 
 .. figure:: Assets/eu-configs-apply.jpg
 
