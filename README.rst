@@ -295,7 +295,7 @@ Click on Add Item button to create rules for Load Balancing based on users in Ge
 
 change here
 
-.. figure:: Assets/dns-europe-2nd-server.jpg
+.. figure:: Assets/dns-europe-2nd-server-new.jpg
 
 .. figure:: Assets/dns-europe-2nd-ip-new.jpg
 
