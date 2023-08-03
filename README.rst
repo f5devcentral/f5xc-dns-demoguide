@@ -301,7 +301,7 @@ change here
 
 .. figure:: Assets/dns-health-check-new.jpg
 
-.. figure:: Assets/enable-health-check.jpg
+.. figure:: Assets/enable-health-check-new.jpg
 
 .. figure:: Assets/europe-health-configs.jpg
 
