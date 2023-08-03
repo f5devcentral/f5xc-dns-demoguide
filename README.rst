@@ -325,7 +325,7 @@ change here
 
 .. figure:: Assets/dns-global.jpg
 
-.. figure:: Assets/dns-global-ip.jpg
+.. figure:: Assets/dns-global-ip-new.jpg
 
 .. figure:: Assets/global-health-check.jpg
 
