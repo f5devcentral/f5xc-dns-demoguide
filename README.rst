@@ -289,6 +289,8 @@ Click on Add Item button to create rules for Load Balancing based on users in Ge
 
 .. figure:: Assets/pool-creation.jpg
 
+Change here
+
 .. figure:: Assets/dns-europe.jpg
 
 .. figure:: Assets/dns-europe-ip.jpg
