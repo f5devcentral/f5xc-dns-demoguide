@@ -305,7 +305,7 @@ change here
 
 .. figure:: Assets/europe-health-configs.jpg
 
-.. figure:: Assets/load-balancer-mode.jpg
+.. figure:: Assets/load-balancer-mode-new.jpg
 
 .. figure:: Assets/static-persist.jpg
 
