@@ -307,7 +307,7 @@ change here
 
 .. figure:: Assets/load-balancer-mode.jpg
 
-.. figure:: Assets/static-persist.jpg
+.. figure:: Assets/static-persist-new.jpg
 
 .. figure:: Assets/static-persist-continue.jpg
 
