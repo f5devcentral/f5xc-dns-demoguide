@@ -297,7 +297,7 @@ change here
 
 .. figure:: Assets/dns-europe-2nd-server.jpg
 
-.. figure:: Assets/dns-europe-2nd-ip.jpg
+.. figure:: Assets/dns-europe-2nd-ip-new.jpg
 
 .. figure:: Assets/dns-health-check.jpg
 
