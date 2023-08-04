@@ -376,3 +376,9 @@ check here
 4. Health Check
 ==============
 
+.. figure:: Assets/health-LB.jpg
+
+.. figure:: Assets/health-europe.jpg
+
+.. figure:: Assets/health-global.jpg
+
