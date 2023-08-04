@@ -357,10 +357,14 @@ check here
 
 .. figure:: Assets/final-configs.jpg
 
-DASDFad
 
-1. Step by Step config process
+
+2. Step by Step config process
+
 ==============
-
 3. Testing
+
 ==============
+
+4. Health Check
+
