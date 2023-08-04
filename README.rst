@@ -337,6 +337,8 @@ change here
 
 .. figure:: Assets/global-configs-apply.jpg
 
+check here
+
 .. figure:: Assets/global-score-apply.jpg
 
 .. figure:: Assets/lb-rules-apply.jpg
