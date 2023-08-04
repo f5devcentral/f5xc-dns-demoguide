@@ -252,6 +252,10 @@ Module 4: Powerful DNS Load Balancing and Disastor recovery
 
 1. Introduction
 ==============
+
+2. Step by Step config process
+==============
+
 At first, log in the F5 Distributed Cloud Console and navigate to ``DNS Management``.
 
 .. figure:: Assets/Untitled.jpg
@@ -359,9 +363,7 @@ check here
 
 
 
-2. Step by Step config process
 
-==============
 
 3. Testing
 
