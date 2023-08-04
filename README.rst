@@ -368,6 +368,10 @@ check here
 3. Testing
 ==============
 
+.. figure:: Assets/EU-dig-test.jpg
+
+.. figure:: Assets/global-dig-test.jpg
+
 
 4. Health Check
 ==============
