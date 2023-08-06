@@ -348,6 +348,7 @@ From the Geo Location Set Selector dropdown click on ``Add Item``.
 Under Metadata section provide name as global-users-rule and Click on Continue.
 
 .. figure:: Assets/global-users-rule.jpg
+Click on add item create a DNS Load Balancer pool for the Global load balancer.
 
 .. figure:: Assets/global-pool-create.jpg
 
