@@ -345,6 +345,7 @@ Under Load Balancing Rule section selection Geo Location Set Selector from Geo L
 From the Geo Location Set Selector dropdown click on ``Add Item``.
 
 .. figure:: Assets/global-set-selector-add.jpg
+Under Metadata section provide name as global-users-rule and Click on Continue.
 
 .. figure:: Assets/global-users-rule.jpg
 
