@@ -386,10 +386,13 @@ Select Default Response Cache Parameters from Response Cache Parameters Choice d
 Click on ``Continue``.
 
 .. figure:: Assets/response-cache-mode-apply.jpg
+Click on ``Apply``.
 
 .. figure:: Assets/resource-record-apply.jpg
+Click on ``Apply``.
 
 .. figure:: Assets/lb-apply.jpg
+Click on ``Save and Exit``.
 
 .. figure:: Assets/dns-configs-apply.jpg
 
