@@ -317,10 +317,13 @@ Repeast the same process by adding another pool member with 18.197.126.112 Publi
 .. figure:: Assets/dns-europe-2nd-server-new.jpg
 
 .. figure:: Assets/dns-europe-2nd-ip-new.jpg
+Enable the Health Check from the DNS Load Balancer Health Check dropdown.
 
 .. figure:: Assets/dns-health-check-new.jpg
+Click on ``Add Item`` button to create a Health Check.
 
 .. figure:: Assets/enable-health-check-new.jpg
+Provide a name under Metadata section and enter health check port as ``80`` under Health Check Type section as shown below.
 
 .. figure:: Assets/europe-health-configs.jpg
 
