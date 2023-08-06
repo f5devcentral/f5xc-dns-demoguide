@@ -339,7 +339,7 @@ Click on continue and then Apply to save Pool Member configuration related to Eu
 Click on add item create an another DNS Load Balancer pool for the Global load balancer.
 
 .. figure:: Assets/global-configs-create.jpg
-
+Under Load Balancing Rule section selection Geo Location Set Selector from Geo Location selection dropdown.
 .. figure:: Assets/global-set-selector.jpg
 
 .. figure:: Assets/global-set-selector-add.jpg
