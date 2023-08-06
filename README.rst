@@ -305,8 +305,10 @@ Click on Add Label to enter the expression to redirect the user's traffic based 
 Click on add item create a DNS Load Balancer pool for the European load balancing rule.
 
 .. figure:: Assets/pool-creation.jpg
+Under Metadata section provide name as dns-europe. Click on ``Add Item`` button to enter the pool members.
 
 .. figure:: Assets/dns-europe.jpg
+Add Pool members with the 13.43.109.15 and 18.197.126.112 Public IPs.
 
 .. figure:: Assets/dns-europe-ip-new.jpg
 
