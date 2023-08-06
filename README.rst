@@ -368,14 +368,17 @@ Select Load Balancing Mode as ``Static Persist`` from the dropdown.
 .. figure:: Assets/global-lb-mode.jpg
 
 .. figure:: Assets/global-lb-mode-static.jpg
+Click on continue and then Apply to save Pool Member configuration related to Global Load Balancer.
 
 .. figure:: Assets/global-configs-apply.jpg
 
-check here
+Enter the value of score as ``90`` and then Click on ``Apply``.
 
 .. figure:: Assets/global-score-apply.jpg
+Click on ``Apply`` to save the Load Balancing Rules.
 
 .. figure:: Assets/lb-rules-apply.jpg
+
 
 .. figure:: Assets/response-cache.jpg
 
