@@ -326,6 +326,7 @@ Click on ``Add Item`` button to create a Health Check.
 Provide a name under Metadata section and enter health check port as ``80`` under Health Check Type section as shown below.
 
 .. figure:: Assets/europe-health-configs.jpg
+Select Load Balancing Mode as ``Static Persist``.
 
 .. figure:: Assets/load-balancer-mode.jpg
 
