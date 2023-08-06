@@ -416,6 +416,7 @@ Similarly Performed dig command from the Global region i.e other than Europe and
 
 4. Health Check
 ==============
+In the dashboard we can see the overall health and status of our DNS Load Balancer including its pools with their members in ``DNS Load Balancers`` under Overview.
 
 .. figure:: Assets/health-LB.jpg
 
