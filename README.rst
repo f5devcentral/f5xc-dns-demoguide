@@ -253,6 +253,10 @@ Module 4: Powerful DNS Load Balancing and Disastor recovery
 1. Introduction
 ==============
 
+.. figure:: Assets/home.jpg
+
+.. figure:: Assets/home-lb.jpg
+
 2. Step by Step config process
 ==============
 
