@@ -253,6 +253,10 @@ Module 4: Powerful DNS Load Balancing and Disastor recovery
 1. Introduction
 ==============
 
+Cloud-based, intelligent DNS Load Balancer from F5 efficiently directs application traffic across environments globally. It performs health checks, provides disaster recovery, and automates responses to activities and events to maintain high performance among apps. 
+
+In this demo, we will see about application traffic being directed based to Geographical location.
+
 .. figure:: Assets/home.jpg
 
 .. figure:: Assets/home-lb.jpg
