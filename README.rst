@@ -331,7 +331,7 @@ Select Load Balancing Mode as ``Static Persist`` from the dropdown.
 .. figure:: Assets/load-balancer-mode.jpg
 
 .. figure:: Assets/static-persist-new.jpg
-Click on continue to save Pool Member configuration related to European Load Balancer.
+Click on continue and then Apply to save Pool Member configuration related to European Load Balancer.
 
 .. figure:: Assets/static-persist-continue-new.jpg
 
