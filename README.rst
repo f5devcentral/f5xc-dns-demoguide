@@ -360,9 +360,10 @@ Add Pool members with the 3.110.195.114 Public IP. Then click on ``Apply`` butto
 Enable the Health Check from the DNS Load Balancer Health Check dropdown.
 
 .. figure:: Assets/global-health-check.jpg
-From the Enable Health Check dropdown select the existing Health check ``europe-dns-health-check`` which is already created
+From the Enable Health Check dropdown select the existing Health check ``europe-dns-health-check`` which is already created.
 
 .. figure:: Assets/global-health-check-new.jpg
+Select Load Balancing Mode as ``Static Persist`` from the dropdown.
 
 .. figure:: Assets/global-lb-mode.jpg
 
