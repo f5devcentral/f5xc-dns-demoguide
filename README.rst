@@ -383,6 +383,7 @@ Select Default Response Cache Parameters from Response Cache Parameters Choice d
 .. figure:: Assets/response-cache.jpg
 
 .. figure:: Assets/response-cache-mode.jpg
+Click on ``Continue``.
 
 .. figure:: Assets/response-cache-mode-apply.jpg
 
