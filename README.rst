@@ -308,7 +308,7 @@ Click on add item create a DNS Load Balancer pool for the European load balancin
 Under Metadata section provide name as dns-europe. Click on ``Add Item`` button to enter the pool members.
 
 .. figure:: Assets/dns-europe.jpg
-Add Pool members with the 13.43.109.15 and 18.197.126.112 Public IPs.
+Add Pool members with the 13.43.109.15 and 18.197.126.112 Public IPs. Then click on ``Apply`` button.
 
 .. figure:: Assets/dns-europe-ip-new.jpg
 
