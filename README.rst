@@ -259,6 +259,7 @@ In this demo, we will see about application traffic being directed based to Geog
 
 .. figure:: Assets/home.jpg
 
+
 .. figure:: Assets/home-lb.jpg
 
 2. Step by Step config process
