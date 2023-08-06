@@ -395,6 +395,7 @@ Click on ``Apply``.
 Click on ``Save and Exit``.
 
 .. figure:: Assets/dns-configs-apply.jpg
+DNS Zone Deployment Status shows ``DNS_ZONE_ACTIVE`` for the respective domain name.
 
 .. figure:: Assets/final-configs.jpg
 
