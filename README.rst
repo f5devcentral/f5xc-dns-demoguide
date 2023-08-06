@@ -329,7 +329,7 @@ Provide a name under Metadata section and enter health check port as ``80`` unde
 Select Load Balancing Mode as ``Static Persist`` from the dropdown.
 
 .. figure:: Assets/load-balancer-mode.jpg
-
+Click on continue to save Pool Member configuration related to European Load Balancer.
 .. figure:: Assets/static-persist-new.jpg
 
 .. figure:: Assets/static-persist-continue-new.jpg
