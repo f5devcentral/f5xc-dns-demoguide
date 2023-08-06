@@ -305,7 +305,7 @@ Click on Add Label to enter the expression to redirect the user's traffic based 
 Click on add item create a DNS Load Balancer pool for the European load balancer.
 
 .. figure:: Assets/pool-creation.jpg
-Under Metadata section provide name as dns-europe. Click on ``Add Item`` button to enter the pool members.
+Under Metadata section provide pool name as dns-europe. Click on ``Add Item`` button to enter the pool members.
 
 .. figure:: Assets/dns-europe.jpg
 Add Pool members with the 13.43.109.15 Public IP. Then click on ``Apply`` button.
@@ -351,12 +351,16 @@ Under Metadata section provide name as global-users-rule and Click on Continue.
 Click on add item create a DNS Load Balancer pool for the Global load balancer.
 
 .. figure:: Assets/global-pool-create.jpg
+Enter the pool name as dns-global. Click on ``Add Item`` button to enter the pool members.
 
 .. figure:: Assets/dns-global.jpg
+Add Pool members with the 3.110.195.114 Public IP. Then click on ``Apply`` button.
 
 .. figure:: Assets/dns-global-ip-new.jpg
+Enable the Health Check from the DNS Load Balancer Health Check dropdown.
 
 .. figure:: Assets/global-health-check.jpg
+From the Enable Health Check dropdown select the existing Health check ``europe-dns-health-check`` which is already created
 
 .. figure:: Assets/global-health-check-new.jpg
 
