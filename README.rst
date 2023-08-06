@@ -302,7 +302,7 @@ Click on Add Label to enter the expression to redirect the user's traffic based 
 
 .. figure:: Assets/eu-rule-label-in-EU-2.jpg
 
-Click on add item create a DNS Load Balancer pool for the European load balancing rule.
+Click on add item create a DNS Load Balancer pool for the European load balancer.
 
 .. figure:: Assets/pool-creation.jpg
 Under Metadata section provide name as dns-europe. Click on ``Add Item`` button to enter the pool members.
@@ -336,6 +336,7 @@ Click on continue and then Apply to save Pool Member configuration related to Eu
 .. figure:: Assets/static-persist-continue-new.jpg
 
 .. figure:: Assets/eu-configs-apply.jpg
+Click on add item create an another DNS Load Balancer pool for the Global load balancer.
 
 .. figure:: Assets/global-configs-create.jpg
 
