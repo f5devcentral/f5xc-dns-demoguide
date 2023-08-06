@@ -379,7 +379,7 @@ Click on ``Apply`` to save the Load Balancing Rules.
 
 .. figure:: Assets/lb-rules-apply.jpg
 
-
+Select Default Response Cache Parameters from Response Cache Parameters Choice dropdown.
 .. figure:: Assets/response-cache.jpg
 
 .. figure:: Assets/response-cache-mode.jpg
