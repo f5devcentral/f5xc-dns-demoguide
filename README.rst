@@ -312,7 +312,7 @@ Add Pool members with the 13.43.109.15 Public IP. Then click on ``Apply`` button
 
 .. figure:: Assets/dns-europe-ip-new.jpg
 
-Repeast the same process by adding another pool member with 18.197.126.112 Public IP and then click on ``Apply`` button.
+Repeat the same process by adding another pool member with 18.197.126.112 Public IP and then click on ``Apply`` button.
 
 .. figure:: Assets/dns-europe-2nd-server-new.jpg
 
