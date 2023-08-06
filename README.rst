@@ -342,6 +342,7 @@ Click on add item create an another DNS Load Balancer pool for the Global load b
 Under Load Balancing Rule section selection Geo Location Set Selector from Geo Location selection dropdown.
 
 .. figure:: Assets/global-set-selector.jpg
+From the Geo Location Set Selector dropdown click on ``Add Item``.
 
 .. figure:: Assets/global-set-selector-add.jpg
 
