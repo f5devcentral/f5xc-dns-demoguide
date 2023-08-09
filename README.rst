@@ -284,7 +284,7 @@ Select the Record Set dropdown select DNS Load Balancer.
 Enter Record Name as ``buytime`` and click on Add Item button to create DNS LB Record.
 
 .. figure:: Assets/dns-configs.jpg
-Provide DNS LB name in Metadata section, select Record Type as A. Click on Configure under Load Balancer Rules to create.
+Provide DNS LB name in Metadata section, select Record Type as A. Click on Configure under Load Balancer Rules.
 
 .. figure:: Assets/dns-lb-name.jpg
 
