@@ -308,7 +308,7 @@ Click on add item create a DNS Load Balancer pool for the Europe's load balancer
 Under Metadata section provide pool name as dns-europe. Click on ``Add Item`` button to enter the pool members.
 
 .. figure:: Assets/dns-europe.jpg
-Add Pool members with the 13.43.109.15 Public IP. Then click on ``Apply`` button.
+Add Pool member with the 13.43.109.15 Public IP. Then click on ``Apply`` button.
 
 .. figure:: Assets/dns-europe-ip-new.jpg
 
@@ -354,7 +354,7 @@ Click on add item create a DNS Load Balancer pool for the Global load balancer.
 Enter the pool name as dns-global. Click on ``Add Item`` button to enter the pool members.
 
 .. figure:: Assets/dns-global.jpg
-Add Pool members with the 3.110.195.114 Public IP. Then click on ``Apply`` button.
+Add Pool member with the 3.110.195.114 Public IP. Then click on ``Apply`` button.
 
 .. figure:: Assets/dns-global-ip-new.jpg
 Enable the Health Check from the DNS Load Balancer Health Check dropdown.
