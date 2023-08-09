@@ -412,6 +412,7 @@ Performed dig command from the Europe region and confirms user's traffic is dire
 Similarly Performed dig command from the Global region i.e other than Europe and confirms user's traffic is directed to Global DNS Load Balancer.
 
 .. figure:: Assets/global-dig-test.jpg
+This confirms traffic is being directed to respective DNS Load Balancers as configured.
 
 
 4. Health Check
