@@ -184,7 +184,7 @@ With F5 Distributed Cloud DNS serving as a secondary DNS solution, our global us
 Module 3: Primary DNS with F5 Distributed Cloud DNS
 ***************************************************
 
-1. Inroduction
+1. Introduction
 ==============
 Extending traditional DNS to an organizations web site and apps across different environments, especially those running in the cloud, can be cumbersome to manage. Most on-premises DNS solutions don’t scale efficiently to support today’s ever expanding app footprints. It can be time consuming and costly to establish a DNS service for modern apps that easily integrates into CI/CD pipelines and critical development workflows. That increases the challenge of providing the app services necessary to securely deliver applications while meeting the performance and uptime expectations of users in our hyper digital world.
 
