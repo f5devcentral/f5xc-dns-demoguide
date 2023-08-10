@@ -206,7 +206,7 @@ All you will need to do is...
 
 **Step by Step Process**:  
 
-Log in the F5 Distributed Cloud Console and navigate to the ``DNS Management``.
+Login to the F5 Distributed Cloud Console and navigate to the ``DNS Management``.
 
 .. figure:: Assets/image4.png
 
