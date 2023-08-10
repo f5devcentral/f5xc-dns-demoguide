@@ -206,7 +206,7 @@ All you will need to do is...
 
 **Step by Step Process**:  
 
-Log in the F5 Distributed Cloud Console and navigate to the ``DNS Management``.
+Login to the F5 Distributed Cloud Console and navigate to the ``DNS Management``.
 
 .. figure:: Assets/image4.png
 
@@ -246,3 +246,184 @@ Now that the primary zone is added with the list of its name servers, we can tes
 .. figure:: Assets/prdns7.png
 
 As you can see from the output, the created record is there. You just need to update the DNS domain settings with your registrar to point to the F5 Distributed Cloud Platform to start sending queries. It's really that quick and easy. Now primary DNS is set up and clients can access your site or app globally via our distributed PoPs providing maximum uptime and performance.
+
+Module 4: Powerful DNS Load Balancing and Disastor recovery
+***************************************************
+
+1. Introduction
+==============
+
+Cloud-based, intelligent DNS Load Balancer from F5 efficiently directs application traffic across environments globally. It performs health checks, provides disaster recovery, and automates responses to activities and events to maintain high performance among apps. 
+
+In this demo, we will see about application traffic being directed based to Geographical location.
+
+.. figure:: Assets/home.jpg
+
+
+.. figure:: Assets/home-lb.jpg
+
+2. Step by Step config process
+==============
+
+At first, log in the F5 Distributed Cloud Console and navigate to ``DNS Management``.
+
+.. figure:: Assets/Untitled.jpg
+
+In the left-side navigation panel proceed to the Manage section, click on DNS Management. When the page opens, click the Add zone button.
+
+.. figure:: Assets/dns-home-page.jpg
+In the Metadata section, give the Domain Name as ``f5-cloud-dnstesting.com``. Under DNS Zone Configuration section, setup Zone Type as ``Primary DNS Configuration`` and click on Edit Configuration.
+
+.. figure:: Assets/config-page.jpg
+Click on Add Item to create the DNS Load Balancer Resource Record Set.
+
+.. figure:: Assets/resource-record-set.jpg
+Select the Record Set dropdown select DNS Load Balancer.
+
+.. figure:: Assets/dns-resource-record-set.jpg
+Enter Record Name as ``buytime`` and click on Add Item button to create DNS LB Record.
+
+.. figure:: Assets/dns-configs.jpg
+Provide DNS LB name in Metadata section, select Record Type as A. Click on Configure under Load Balancer Rules.
+
+.. figure:: Assets/dns-lb-name.jpg
+
+Click on Add Item button to create rules for Load Balancing based on users in Geographical location.
+
+.. figure:: Assets/dns-lb-rule.jpg
+
+Click on Add Label to enter the expression to redirect the user's traffic based on their location to the fastest and closest endpoint.
+
+.. figure:: Assets/eu-rule.jpg
+
+.. figure:: Assets/eu-rule-label.jpg
+
+.. figure:: Assets/eu-rule-label-in.jpg
+
+.. figure:: Assets/eu-rule-label-in-EU-2.jpg
+
+Click on add item create a DNS Load Balancer pool for the Europe's load balancer.
+
+.. figure:: Assets/pool-creation.jpg
+Under Metadata section provide pool name as dns-europe. Click on ``Add Item`` button to enter the pool members.
+
+.. figure:: Assets/dns-europe.jpg
+Add Pool member with the 13.43.109.15 Public IP. Then click on ``Apply`` button.
+
+.. figure:: Assets/dns-europe-ip-new.jpg
+
+Repeat the same process by adding another pool member with 18.197.126.112 Public IP and then click on ``Apply`` button.
+
+.. figure:: Assets/dns-europe-2nd-server-new.jpg
+
+.. figure:: Assets/dns-europe-2nd-ip-new.jpg
+Enable the Health Check from the DNS Load Balancer Health Check dropdown.
+
+.. figure:: Assets/dns-health-check-new.jpg
+Click on ``Add Item`` button to create a Health Check.
+
+.. figure:: Assets/enable-health-check-new.jpg
+Provide a name under Metadata section and enter health check port as ``80`` under Health Check Type section as shown below.
+
+.. figure:: Assets/europe-health-configs.jpg
+Select Load Balancing Mode as ``Static Persist`` from the dropdown.
+
+.. figure:: Assets/load-balancer-mode.jpg
+
+.. figure:: Assets/static-persist-new.jpg
+Click on continue and then Apply to save Pool Member configuration related to Europe's Load Balancer.
+
+.. figure:: Assets/static-persist-continue-new.jpg
+
+.. figure:: Assets/eu-configs-apply.jpg
+Click on add item create an another DNS Load Balancer pool for the Global load balancer.
+
+.. figure:: Assets/global-configs-create.jpg
+Under Load Balancing Rule section select Geo Location Set Selector from Geo Location selection dropdown.
+
+.. figure:: Assets/global-set-selector.jpg
+From the Geo Location Set Selector dropdown click on ``Add Item``.
+
+.. figure:: Assets/global-set-selector-add.jpg
+Under Metadata section provide name as global-users-rule and Click on Continue.
+
+.. figure:: Assets/global-users-rule.jpg
+Click on add item create a DNS Load Balancer pool for the Global load balancer.
+
+.. figure:: Assets/global-pool-create.jpg
+Enter the pool name as dns-global. Click on ``Add Item`` button to enter the pool members.
+
+.. figure:: Assets/dns-global.jpg
+Add Pool member with the 3.110.195.114 Public IP. Then click on ``Apply`` button.
+
+.. figure:: Assets/dns-global-ip-new.jpg
+Enable the Health Check from the DNS Load Balancer Health Check dropdown.
+
+.. figure:: Assets/global-health-check.jpg
+From the Enable Health Check dropdown select the existing Health check ``europe-dns-health-check`` which is already created.
+
+.. figure:: Assets/global-health-check-new.jpg
+Select Load Balancing Mode as ``Static Persist`` from the dropdown.
+
+.. figure:: Assets/global-lb-mode.jpg
+
+.. figure:: Assets/global-lb-mode-static.jpg
+Click on continue and then Apply to save Pool Member configuration related to Global Load Balancer.
+
+.. figure:: Assets/global-configs-apply.jpg
+
+Enter the value of score as ``90`` and then Click on ``Apply``.
+
+.. figure:: Assets/global-score-apply.jpg
+Click on ``Apply`` to save the Load Balancing Rules.
+
+.. figure:: Assets/lb-rules-apply.jpg
+Select Default Response Cache Parameters from Response Cache Parameters Choice dropdown.
+
+.. figure:: Assets/response-cache.jpg
+
+.. figure:: Assets/response-cache-mode.jpg
+Click on ``Continue``.
+
+.. figure:: Assets/response-cache-mode-apply.jpg
+Click on ``Apply``.
+
+.. figure:: Assets/resource-record-apply.jpg
+Click on ``Apply``.
+
+.. figure:: Assets/lb-apply.jpg
+Click on ``Save and Exit``.
+
+.. figure:: Assets/dns-configs-apply.jpg
+DNS Zone Deployment Status shows ``DNS_ZONE_ACTIVE`` for the respective domain name.
+
+.. figure:: Assets/final-configs.jpg
+
+
+
+
+
+3. Testing
+==============
+
+Performed dig command from the Europe region and confirms user's traffic is directed to Europe's DNS Load Balancer.
+
+.. figure:: Assets/EU-dig-test.jpg
+Similarly Performed dig command from the Global region i.e other than Europe and confirms user's traffic is directed to Global DNS Load Balancer.
+
+.. figure:: Assets/global-dig-test.jpg
+This confirms traffic is being directed to respective DNS Load Balancers as configured.
+
+
+4. Health Check
+==============
+In the dashboard we can see the overall health and status of our DNS Load Balancer including its pools with their members in ``DNS Load Balancers`` under Overview.
+As we can able to see both the members of Europe's Pool and Global Pool shows healthy which means that the service is up and running.
+
+.. figure:: Assets/health-LB.jpg
+Click on ``dns-europe`` pool to check the reasons for failure if the pool member is unhealthy.
+
+.. figure:: Assets/health-europe.jpg
+
+.. figure:: Assets/health-global.jpg
+
