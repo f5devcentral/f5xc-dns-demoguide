@@ -2,6 +2,10 @@
 
 .. contents:: Table of Contents
 
+About
+##########
+This repo contains the detailed info about multiple DNS focused use case articles and their execution process. Refer to DevCentral Article for quick summary and any additional resources.
+
 Objective
 ####################
 This demo guide will help you to get familiar with the following features & capabilities: 
