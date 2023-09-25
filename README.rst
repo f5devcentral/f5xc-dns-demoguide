@@ -206,7 +206,7 @@ All you will need to do is...
 
 1) Add a DNS Zone and​ give it a name, based on the site or apps domain
 2) Set up the zone type as a 'Primary DNS Configuration'
-3) Create the appropriate resource records, for example, A, AAAA, CNAME, ALIAS etc.
+3) Create the appropriate resource records, for example, MX or TXT etc.
 
 **Step by Step Process**:  
 
@@ -226,7 +226,7 @@ Click to ``Add Item`` under Resource Record Set with SOA record param as ``Defau
 
 .. figure:: Assets/prdns3.png
 
-Type the TLL value, record set type and IPv4 address and ``Apply`` the record set configuration.
+Type the TTL value, record set type and IPv4 address and ``Apply`` the record set configuration.
 
 .. figure:: Assets/prdns3_1.png
 
