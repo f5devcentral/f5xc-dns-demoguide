@@ -247,7 +247,7 @@ Verify that DNS Zone is added successfully and proceed to rest the created DNS S
 
 Now that the primary zone is added with the list of its name servers, we can test it by running a command in any terminal.
 
-.. figure:: Assets/prdns7.png
+.. figure:: Assets/dns_dig.png
 
 As you can see from the output, the created record is there. You just need to update the DNS domain settings with your registrar to point to the F5 Distributed Cloud Platform to start sending queries. It's really that quick and easy. Now primary DNS is set up and clients can access your site or app globally via our distributed PoPs providing maximum uptime and performance.
 
