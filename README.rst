@@ -40,13 +40,13 @@ In this scenario let's assume we have existing on-premises DNS infrastructure su
 
 **Primary on-prem DNS failed**
 ------------------------------
-As you can see, the on-prem DNS infrastructure experiences a sudden failure and users are redirected to a secondary on-prem DNS to get access to our site or app. Sometimes secondary premises or CPE based DNS infrastructure fails. Maybe the increased traffic causes degraded performance or other issues, maybe it is hit with an attack - either of these scenarios could knock both the on-prem DNS servers offline, leaving your site or app unreachable.
+As you can see, the on-prem DNS infrastructure experiences a sudden failure and users are redirected to a secondary on-prem DNS to get access to our site or app. Sometimes secondary premises or On-Prem Equipment based DNS infrastructure fails. Maybe the increased traffic causes degraded performance or other issues, maybe it is hit with an attack - either of these scenarios could knock both the on-prem DNS servers offline, leaving your site or app unreachable.
 
 .. figure:: Assets/image2.png
 
 **Complete DNS Failure**
 ------------------------
-DNS failure is not uncommon. Whether you have a single on-prem, CPE based DNS solution with backup or a single cloud DNS solution you are likely to be struggling with increasing traffic demands and experiencing degraded performance or vulnerable to an outage due to a growing threat of attacks. As in this scenario even with redundant premises based DNS infrastructure our site/app was knocked offline with users unable to access the resource.
+DNS failure is not uncommon. Whether you have a single on-prem, On-Prem Equipment based DNS solution with backup or a single cloud DNS solution you are likely to be struggling with increasing traffic demands and experiencing degraded performance or vulnerable to an outage due to a growing threat of attacks. As in this scenario even with redundant premises based DNS infrastructure our site/app was knocked offline with users unable to access the resource.
 
 This outcome is not acceptable for most organizations today, so let's see how quick and easy it is to set up F5 Distributed Cloud DNS as a global, SaaS-based, secondary authoritative DNS solution - delivering scalable, global access points to backup and redirect users’ requests to our site/app.
 
