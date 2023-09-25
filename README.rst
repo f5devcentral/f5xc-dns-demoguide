@@ -4,7 +4,7 @@
 
 About
 ##########
-This repo contains the detailed info about multiple DNS focused use case articles and their execution process. Refer to DevCentral Article for quick summary and any additional resources.
+This repo contains the detailed info about multiple DNS focused use case articles and their execution process. Refer to DevCentral `Article <https://community.f5.com/t5/technical-articles/demo-guide-f5-distributed-cloud-dns-saas-console/ta-p/318714>` for quick summary and any additional resources.
 
 Objective
 ####################
